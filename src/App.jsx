@@ -42,7 +42,8 @@ export default function App() {
           />
 
           <h2 className="text-5xl font-bold">
-            Meet Vintari
+              Vintari™
+
           </h2>
 
           <p className="mt-4 max-w-2xl text-xl text-slate-300">

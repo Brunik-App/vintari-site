@@ -12,7 +12,8 @@ export default function Footer() {
         </p>
 
         <p className="mt-4 text-xs text-slate-600">
-          © 2026 Vintari™. All rights reserved.
+          © © 2026 Vintari™
+Brunik™ is the AI guide for the Vintari platform.
         </p>
 
       </div>
