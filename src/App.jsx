@@ -45,9 +45,12 @@ export default function App() {
               Vintari™
 
           </h2>
+          <div className="mt-6 inline-flex rounded-full border border-emerald-500/30 bg-emerald-500/10 px-4 py-2 text-sm font-medium text-emerald-300">
+        Early Access Program
+      </div>
 
           <p className="mt-4 max-w-2xl text-xl text-slate-300">
-            Inventory intelligence powered by AI and guided by Brunik.
+            Inventory intelligence powered by AI and guided by Brunik™.
           </p>
 
           <p className="mt-6 max-w-3xl text-lg text-slate-400">
