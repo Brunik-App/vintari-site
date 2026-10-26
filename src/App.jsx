@@ -23,9 +23,12 @@ export default function App() {
             </h1>
           </div>
 
-          <button className="rounded-xl bg-emerald-500 px-5 py-2 font-semibold text-slate-950 hover:bg-emerald-400">
-            Request Demo
-          </button>
+          <a
+  href="mailto:contact@brunik.app?subject=Vintari%20Inquiry&body=Hello%20Brunik%20Team%2C%0A%0AI'm%20interested%20in%20learning%20more%20about%20Vintari.%0A%0AName%3A%20%0AOrganization%3A%20%0AWhat%20caught%20your%20interest%3F%20%0A%0AMessage%3A%20%0A%0AThank%20you."
+  className="rounded-xl bg-emerald-500 px-5 py-2 font-semibold text-slate-950 hover:bg-emerald-400 inline-block"
+>
+  Contact Us
+</a>
 
         </div>
       </nav>
