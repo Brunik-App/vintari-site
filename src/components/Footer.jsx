@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-6 text-center">
 
         <h3 className="mb-2 text-lg font-semibold text-emerald-400">
-          VINTARI
+          VINTORI
         </h3>
 
         <p className="text-sm text-slate-500">
@@ -13,7 +13,7 @@ export default function Footer() {
 
         <p className="mt-4 text-xs text-slate-600">
           © © 2026 Vintori™
-Brunik™ is the AI guide for the Vintori platform.
+Meet Brunik. Smarter Inventory Starts Here.
         </p>
 
       </div>
