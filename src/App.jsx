@@ -19,21 +19,21 @@ export default function App() {
             />
 
             <h1 className="text-2xl font-bold text-emerald-400">
-              Vintori
+              Brunik™
             </h1>
           </div>
 
           <a
-  href="mailto:contact@brunik.app?subject=VINTORI%20Inquiry&body=Hello%20Brunik%20Team%2C%0A%0AI'm%20interested%20in%20learning%20more%20about%20Vintori.%0A%0AName%3A%20%0AOrganization%3A%20%0AWhat%20caught%20your%20interest%3F%20%0A%0AMessage%3A%20%0A%0AThank%20you."
-  className="rounded-xl bg-emerald-500 px-5 py-2 font-semibold text-slate-950 hover:bg-emerald-400 inline-block"
->
-  Contact Us
-</a>
+            href="mailto:contact@brunik.app?subject=Brunik%20Inquiry"
+            className="rounded-xl bg-emerald-500 px-5 py-2 font-semibold text-slate-950 hover:bg-emerald-400 inline-block"
+          >
+            Meet Brunik
+          </a>
 
         </div>
       </nav>
 
-            {/* HERO */}
+      {/* HERO */}
       <main className="px-6 py-20">
 
         <div className="mx-auto flex max-w-6xl flex-col items-center text-center">
@@ -45,80 +45,154 @@ export default function App() {
           />
 
           <h2 className="text-5xl font-bold">
-              Vintori™
-
+            Meet Brunik™
           </h2>
-          <div className="mt-6 inline-flex rounded-full border border-emerald-500/30 bg-emerald-500/10 px-4 py-2 text-sm font-medium text-emerald-300">
-        Early Access Program
-      </div>
 
-          <p className="mt-4 max-w-2xl text-xl text-slate-300">
-            Inventory intelligence powered by AI and guided by Brunik™.
+          <div className="mt-6 inline-flex rounded-full border border-emerald-500/30 bg-emerald-500/10 px-4 py-2 text-sm font-medium text-emerald-300">
+            Intelligent Steward • In Development
+          </div>
+
+          <p className="mt-6 text-2xl font-semibold text-emerald-300">
+            Looking After What's Next.
+          </p>
+
+          <p className="mt-6 max-w-3xl text-lg text-slate-300">
+            Brunik is an Intelligent Steward inspired by the
+            helpful Brownies of Scottish folklore.
           </p>
 
           <p className="mt-6 max-w-3xl text-lg text-slate-400">
-            Transform inventory data into actionable insights that help
-            teams forecast demand, reduce risk, and make smarter
-            operational decisions.
+            Built for the modern world, Brunik helps people
+            understand complexity, preserve context, identify
+            opportunities, and make better decisions.
           </p>
 
         </div>
 
       </main>
 
-      {/* WHY Vintori */}
+      {/* STORY */}
       <section className="bg-slate-900/50 py-20">
 
         <div className="mx-auto max-w-5xl px-6 text-center">
 
           <h2 className="mb-6 text-4xl font-bold">
-            Why Vintori?
+            Inspired by an Old Kind of Helper
           </h2>
 
           <p className="text-lg leading-8 text-slate-300">
-            Most businesses have inventory data. Few know what to do
-            with it. Vintori helps uncover trends, highlight risks,
-            and guide smarter decisions through AI-powered analysis
-            and operational intelligence.
+            For centuries, Scottish folklore spoke of Brownies:
+            dependable helpers who worked quietly behind the scenes,
+            solved problems before they became crises, and took pride
+            in keeping things running smoothly.
+          </p>
+
+          <p className="mt-6 text-lg leading-8 text-slate-400">
+            Brunik carries that same spirit into the digital age.
+            Where Brownies once cared for homes and workshops,
+            Brunik helps care for information, operations,
+            knowledge, and decisions.
           </p>
 
         </div>
 
       </section>
-            {/* FEATURES */}
+
+      {/* FEATURES */}
       <section className="py-20">
 
         <div className="mx-auto max-w-6xl px-6">
 
           <h2 className="mb-12 text-center text-4xl font-bold">
-            Built For Better Decisions
+            How Brunik Helps
           </h2>
 
           <div className="grid gap-6 md:grid-cols-3">
 
-  <FeatureCard
-    title="Forecast"
-    description="Anticipate future inventory needs before they become urgent."
-  />
+            <FeatureCard
+              title="Notice"
+              description="Brunik identifies patterns, trends, opportunities, and signals that others may miss."
+            />
 
-  <FeatureCard
-    title="Monitor"
-    description="Maintain visibility into inventory health and operational performance."
-  />
+            <FeatureCard
+              title="Remember"
+              description="Brunik preserves context and connects information over time so valuable knowledge isn't lost."
+            />
 
-  <FeatureCard
-    title="Improve"
-    description="Turn operational data into recommendations your team can act on."
-  />
-
+            <FeatureCard
+              title="Guide"
+              description="Brunik helps people evaluate options, understand tradeoffs, and move forward confidently."
+            />
 
           </div>
 
         </div>
 
       </section>
-            {/* MEET BRUNIK */}
+
+      {/* PHILOSOPHY */}
       <section className="bg-slate-900/50 py-20">
+
+        <div className="mx-auto max-w-5xl px-6 text-center">
+
+          <h2 className="mb-12 text-4xl font-bold">
+            The Brunik Philosophy
+          </h2>
+
+          <div className="grid gap-10 md:grid-cols-2">
+
+            <div>
+              <h3 className="mb-3 text-xl font-semibold text-emerald-400">
+                Everything Leaves Clues
+              </h3>
+
+              <p className="text-slate-400">
+                Problems rarely appear without warning.
+                Meaningful change begins with small signals.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="mb-3 text-xl font-semibold text-emerald-400">
+                Understanding Before Action
+              </h3>
+
+              <p className="text-slate-400">
+                Brunik seeks understanding before recommendations
+                and clarity before conclusions.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="mb-3 text-xl font-semibold text-emerald-400">
+                Memory Has Value
+              </h3>
+
+              <p className="text-slate-400">
+                Better decisions come from preserved context.
+                Brunik remembers what matters.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="mb-3 text-xl font-semibold text-emerald-400">
+                Looking Ahead Matters
+              </h3>
+
+              <p className="text-slate-400">
+                Brunik focuses not only on what happened,
+                but on what may happen next.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      {/* MEET BRUNIK */}
+      <section className="py-20">
 
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 md:grid-cols-2">
 
@@ -127,7 +201,7 @@ export default function App() {
             <img
               src={brunik}
               alt="Brunik"
-              className="w-72"
+              className="w-80"
             />
 
           </div>
@@ -139,28 +213,80 @@ export default function App() {
             </h2>
 
             <p className="mb-4 text-lg text-slate-300">
-              Brunik is the AI guide behind the Vintori experience.
+              Brunik is an Intelligent Steward.
             </p>
 
             <p className="mb-4 text-slate-400">
-              Designed to transform complex inventory information into
-              practical recommendations, Brunik helps teams focus on
-              what matters most.
+              Inspired by the helpful Brownies of Scottish folklore,
+              Brunik watches over operations, remembers context,
+              identifies opportunities, and helps people prepare
+              for what comes next.
+            </p>
+
+            <p className="mb-4 text-slate-400">
+              Brunik is curious, observant, practical,
+              and dependable.
             </p>
 
             <p className="text-slate-400">
-              Friendly, approachable, and intelligent, Brunik brings
-              operational insights to life.
+              Brunik does not seek attention.
+              Brunik seeks usefulness.
             </p>
-            
 
           </div>
 
         </div>
 
       </section>
+
+      {/* VISION */}
+      <section className="bg-slate-900/50 py-20">
+
+        <div className="mx-auto max-w-5xl px-6 text-center">
+
+          <h2 className="mb-6 text-4xl font-bold">
+            A New Kind of Intelligence
+          </h2>
+
+          <p className="text-lg leading-8 text-slate-300">
+            Technology grows more complex each year.
+            Information moves faster. Context becomes easier to lose.
+          </p>
+
+          <p className="mt-6 text-lg leading-8 text-slate-400">
+            Brunik exists to help people navigate that complexity.
+            Our vision is to create an intelligence that helps
+            individuals and organizations understand more,
+            remember more, and make more confident decisions.
+          </p>
+
+        </div>
+
+      </section>
+      <section className="py-20">
+  <div className="mx-auto max-w-4xl px-6 text-center">
+
+    <h2 className="text-3xl font-bold">
+      The Brunik Vision
+    </h2>
+
+    <p className="mt-6 text-lg leading-8 text-slate-300">
+      Brunik began with a simple purpose:
+      to help people better understand what is happening today
+      so they can prepare for what comes next.
+    </p>
+
+    <p className="mt-6 text-slate-400">
+      Inspired by the Brownies of Scottish folklore,
+      Brunik exists to notice, remember, guide, and help.
+    </p>
+
+  </div>
+</section>
+
       <CTASection />
       <Footer />
-          </div>
+
+    </div>
   );
 }
