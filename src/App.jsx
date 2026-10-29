@@ -19,7 +19,11 @@ export default function App() {
             />
 
             <h1 className="text-2xl font-bold text-emerald-400">
+<<<<<<< HEAD
               VINTORI
+=======
+              Vintori
+>>>>>>> 7d9b68c (Rename Vintari branding to Vintori)
             </h1>
           </div>
 
@@ -45,7 +49,7 @@ export default function App() {
           />
 
           <h2 className="text-5xl font-bold">
-              Vintari™
+              Vintori™
 
           </h2>
           <div className="mt-6 inline-flex rounded-full border border-emerald-500/30 bg-emerald-500/10 px-4 py-2 text-sm font-medium text-emerald-300">
@@ -66,18 +70,18 @@ export default function App() {
 
       </main>
 
-      {/* WHY VINTARI */}
+      {/* WHY Vintori */}
       <section className="bg-slate-900/50 py-20">
 
         <div className="mx-auto max-w-5xl px-6 text-center">
 
           <h2 className="mb-6 text-4xl font-bold">
-            Why Vintari?
+            Why Vintori?
           </h2>
 
           <p className="text-lg leading-8 text-slate-300">
             Most businesses have inventory data. Few know what to do
-            with it. Vintari helps uncover trends, highlight risks,
+            with it. Vintori helps uncover trends, highlight risks,
             and guide smarter decisions through AI-powered analysis
             and operational intelligence.
           </p>
@@ -139,7 +143,7 @@ export default function App() {
             </h2>
 
             <p className="mb-4 text-lg text-slate-300">
-              Brunik is the AI guide behind the Vintari experience.
+              Brunik is the AI guide behind the Vintori experience.
             </p>
 
             <p className="mb-4 text-slate-400">
