@@ -19,11 +19,7 @@ export default function App() {
             />
 
             <h1 className="text-2xl font-bold text-emerald-400">
-<<<<<<< HEAD
-              VINTORI
-=======
               Vintori
->>>>>>> 7d9b68c (Rename Vintari branding to Vintori)
             </h1>
           </div>
 
